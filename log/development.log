@@ -6873,3 +6873,11 @@ Processing by Devise::SessionsController#new as HTML
   Rendered layouts/_header.html.erb (0.6ms)
   Rendered layouts/_footer.html.erb (9.2ms)
 Completed 200 OK in 64ms (Views: 54.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-05-23 16:51:31 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (5.9ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)

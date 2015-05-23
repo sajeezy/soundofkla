@@ -1793,3 +1793,611 @@ Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702
 
 
 Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 01:51:27 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 01:59:42 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-747f6ddf7feab436e1e0eb87907b9a64f406d7e383b4bdd53e0cf42ac7d27cef.css?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 01:59:42 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 01:59:45 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 01:59:45 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 01:59:45 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 01:59:45 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 01:59:45 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:15:47 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (35.3ms)
+Completed 200 OK in 1890ms (Views: 1889.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-747f6ddf7feab436e1e0eb87907b9a64f406d7e383b4bdd53e0cf42ac7d27cef.css?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:15:49 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:15:50 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:16:33 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (5.8ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/bootstrap_and_customization.self-747f6ddf7feab436e1e0eb87907b9a64f406d7e383b4bdd53e0cf42ac7d27cef.css?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:16:34 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:16:57 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (6.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-747f6ddf7feab436e1e0eb87907b9a64f406d7e383b4bdd53e0cf42ac7d27cef.css?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:16:57 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:16:58 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:17:33 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (5.7ms)
+Completed 200 OK in 1686ms (Views: 1685.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-23c21b1343fdd669872c4a6260ec013f8b674ea00ebfcf5377aadcb52812aa13.css?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:17:34 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:17:35 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:17:35 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:17:35 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:17:35 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:18:07 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (7.7ms)
+Completed 200 OK in 1632ms (Views: 1631.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-e68bbbdb6071fea1c03dd217be169be7e6fa104514a76644e3cca3d5dc0d0e9a.css?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:18:09 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:18:20 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (8.2ms)
+Completed 200 OK in 1667ms (Views: 1666.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-936ac78c6dc8d2ddb77a2c9e8dc3c75a99ade514bc1191df551e9454c69ae591.css?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:18:22 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:18:35 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (7.2ms)
+Completed 200 OK in 1749ms (Views: 1748.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-ebc4cb1fd648b860b14f5ada34fa6be6483336f51ba53eb35dc0b31c1ce172eb.css?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:18:37 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:18:38 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:19:42 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/Stevensajja/Documents/Repos/Soundofkla/app/views/layouts/_footer.html.erb:11: syntax error, unexpected ':', expecting ')'
+....youtube.com/user/Soundofkla" :target => "_blank" );@output_...
+...                               ^):
+  app/views/layouts/_footer.html.erb:11: syntax error, unexpected ':', expecting ')'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___517952776235151987_70297951159760'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-23 02:19:57 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (5.6ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-ebc4cb1fd648b860b14f5ada34fa6be6483336f51ba53eb35dc0b31c1ce172eb.css?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:19:57 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:20:21 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (6.1ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-ebc4cb1fd648b860b14f5ada34fa6be6483336f51ba53eb35dc0b31c1ce172eb.css?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:20:21 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:20:22 +0200
+
+
+Started GET "/" for ::1 at 2015-05-23 02:20:46 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (8.0ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_customization.self-ebc4cb1fd648b860b14f5ada34fa6be6483336f51ba53eb35dc0b31c1ce172eb.css?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/bootstrap.self-2bbd2c0465f01b1f8270958ddfc2e62a08915f295a35d22df2971eb936cf3c64.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/twitter3-442fc43696ddc350f1d4441d475243dc87554c95311229a60ab0e3e39a688681.png" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/soundcloud6-00d8bfb836bc6f0924e7a85e4f6c7aa4dd9fd0756a59b1d38cad40f9bd350fba.png" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/facebook55-7f43062b15dc2998a3fc25b4786947b4b4470e555488be4c856523aa9018e079.png" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/instagram15-11115de951cfef6d4b0111df5afba8c686a89a89361083524cd036664af1ac3c.png" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/youtube1-2f90f900ab6fb0762d01557c67cf6048f9c981d325993cec7a781c0dac36f486.png" for ::1 at 2015-05-23 02:20:46 +0200
+
+
+Started GET "/assets/image5-e2d9191ffe92c08cf6025b6499ebfde0d7b09354e2ecd76c5b430948094fcaeb.jpg" for ::1 at 2015-05-23 02:20:47 +0200

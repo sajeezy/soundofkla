@@ -7045,3 +7045,88 @@ ActionController::RoutingError (No route matches [GET] "/artists/new"):
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateArtists (20150524110021)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "artists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150524110021"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for ::1 at 2015-05-24 13:01:43 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (8.8ms)
+  Rendered layouts/_footer.html.erb (17.1ms)
+Completed 200 OK in 665ms (Views: 646.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/artists.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-24 13:01:44 +0200
+
+
+Started GET "/assets/artists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-24 13:01:44 +0200
+
+
+Started GET "/artists" for ::1 at 2015-05-24 13:01:46 +0200
+Processing by ArtistsController#index as HTML
+  [1m[35mArtist Load (0.1ms)[0m  SELECT "artists".* FROM "artists"
+  Rendered artists/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (6.4ms)
+Completed 200 OK in 56ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/artists/new" for ::1 at 2015-05-24 13:01:59 +0200
+Processing by ArtistsController#new as HTML
+  Rendered artists/_form.html.erb (68.7ms)
+  Rendered artists/new.html.erb within layouts/application (69.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (5.3ms)
+Completed 200 OK in 122ms (Views: 119.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/artists" for ::1 at 2015-05-24 13:02:12 +0200
+Processing by ArtistsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WomYDsu4pGL6rbwI6kF/YhfH1LpYkDoKWVxyxHemH4tmCPu5mjEcmsvevaoZWRfy3Ae0r+7SPunUlGTho46iwA==", "artist"=>{"name"=>"A B A A S A"}, "commit"=>"Create Artist"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "artists" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "A B A A S A"], ["created_at", "2015-05-24 11:02:12.380444"], ["updated_at", "2015-05-24 11:02:12.380444"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/artists/1
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/artists/1" for ::1 at 2015-05-24 13:02:12 +0200
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArtist Load (0.1ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered artists/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 108ms (Views: 102.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/artists" for ::1 at 2015-05-24 13:02:16 +0200
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (0.1ms)[0m  [1mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (7.0ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.1ms)

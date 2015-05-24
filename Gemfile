@@ -29,6 +29,8 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+gem 'paperclip', '~> 4.2'
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'

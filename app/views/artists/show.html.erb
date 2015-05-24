@@ -1,9 +1,16 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @artist.image.url(:medium) %>
+
 <p>
   <strong>Name:</strong>
   <%= @artist.name %>
 </p>
 
-<%= link_to 'Edit', edit_artist_path(@artist) %> |
+<% if user_signed_in? %>
+	<%= link_to 'Edit', edit_artist_path(@artist) %> |
+	<% end %>
 <%= link_to 'Back', artists_path %>
+
+
+

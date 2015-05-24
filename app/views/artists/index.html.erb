@@ -1,36 +1,36 @@
-<p id="notice"><%= notice %></p>
 
-<h1>Listing Artists</h1>
+<div class="container">
+    <p id="notice"><%= notice %></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @artists.each do |artist| %>
-      <tr>
-        <td><%= image_tag artist.image.url(:medium) %></td>
-        <td><%= artist.name %></td>
-        <td><%= link_to 'Show', artist %></td>
-    
+    <h1 class="center">A R T I S T S</h1>
     <% if user_signed_in? %>
-        <td><%= link_to 'Edit', edit_artist_path(artist) %></td>
-        <td><%= link_to 'Destroy', artist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <a class="btn btn-lg" <%= link_to 'Add Artist', new_artist_path %> </a>
+     
     <% end %>
+    <div class="row">
 
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+       <% @artists.each do |artist| %>
+      <div class="col-md-4">
+        <%= link_to image_tag(artist.image.url), artist, :class => "blur" %>
+        <!-- <%= link_to image_tag(artist.image.url(:medium)), artist, :class => "blur" %> -->
+        <p class="lead center"><%= artist.name %>
+        
+        <% if user_signed_in? %>
+               | <%= link_to 'Edit', edit_artist_path(artist) %>
+               | <%= link_to 'Delete', artist, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
+        </p>
+      </div>
+        <% end %>
+    </div>
 
-<br>
-<% if user_signed_in? %>
-<%= link_to 'New Artist', new_artist_path %>
-<% end %>
+    <br>
+
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+

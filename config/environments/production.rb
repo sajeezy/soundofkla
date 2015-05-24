@@ -56,6 +56,7 @@ Rails.application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
+  
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
 

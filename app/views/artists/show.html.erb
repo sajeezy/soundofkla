@@ -1,16 +1,24 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+	<!-- <p id="notice"><%= notice %></p> -->
+		<%= link_to '< Back', artists_path %>	
 
-<%= image_tag @artist.image.url(:medium) %>
+	<div class="center">
+		<h3> <%= @artist.name %></h3>
+		<hr/>
 
-<p>
-  <strong>Name:</strong>
-  <%= @artist.name %>
-</p>
+		<%= image_tag @artist.image.url,:class => "showartistimg" %>
 
-<% if user_signed_in? %>
-	<%= link_to 'Edit', edit_artist_path(@artist) %> |
-	<% end %>
-<%= link_to 'Back', artists_path %>
+		<% if user_signed_in? %>
+			<p><%= link_to 'Edit', edit_artist_path(@artist) %> </p>
+
+			<% end %>
+	</div>
+</div>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 

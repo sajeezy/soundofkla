@@ -101,7 +101,7 @@ height: 849px;
 
 .blur img {
   width:350px;
-height:200px;
+height:230px;
 padding-left:5px;
 }
 
@@ -122,8 +122,19 @@ filter: grayscale(0%);
 -ms-filter: grayscale(0%);
 }
 
-
 .showartistimg {
   width:595px;
   height:395px;
+}
+
+.artistsm li{
+    padding-right:5px;
+  display:inline;
+  text-decoration:none;
+}
+
+.artistsm li:hover {
+  background-color: #fff;
+ color: #B5C9CB; 
+
 }

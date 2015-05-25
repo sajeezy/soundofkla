@@ -1,6 +1,7 @@
 class ArtistsController < ApplicationController
   before_action :set_artist, only: [:show, :edit, :update, :destroy]
-
+  require 'soundcloud'
+  require 'oembed'
   # GET /artists
   # GET /artists.json
   def index
@@ -10,8 +11,10 @@ class ArtistsController < ApplicationController
   # GET /artists/1
   # GET /artists/1.json
   def show
+    
   end
 
+  
   # GET /artists/new
   def new
     @artist = Artist.new
@@ -20,6 +23,7 @@ class ArtistsController < ApplicationController
   # GET /artists/1/edit
   def edit
   end
+
 
   # POST /artists
   # POST /artists.json
@@ -69,6 +73,6 @@ class ArtistsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def artist_params
-      params.require(:artist).permit(:name, :image)
+      params.require(:artist).permit(:name, :image, :bio, :twitter, :facebook, :soundcloud)
     end
 end

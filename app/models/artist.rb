@@ -3,6 +3,10 @@ class Artist < ActiveRecord::Base
 	validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 	validates :image, presence: true
   validates :name, presence: true
+  validates :bio, presence: true
+  # validates :twitter, presence: true
+  # validates :facebook, presence: true
+  # validates :soundcloud, presence: true
 end
 
 

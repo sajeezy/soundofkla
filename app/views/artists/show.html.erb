@@ -1,24 +1,64 @@
-<div class="container">
-	<!-- <p id="notice"><%= notice %></p> -->
-		<%= link_to '< Back', artists_path %>	
 
-	<div class="center">
+<%= javascript_include_tag '//connect.soundcloud.com/sdk.js' %>
+<%= javascript_include_tag 'application' %>
+
+<div class="container">
+	<!-- <p id="notice"><%= notice %></p> -->	
+		<%= link_to '< Back', artists_path %>	
+		<% if user_signed_in? %>
+			| <%= link_to 'Edit', edit_artist_path(@artist) %>
+
+			<% end %>
+
+	<div class="row container center">
 		<h3> <%= @artist.name %></h3>
-		<hr/>
+
+	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<hr/>
+		<br/>
+
+			</div>
+	</div>
 
 		<%= image_tag @artist.image.url,:class => "showartistimg" %>
 
-		<% if user_signed_in? %>
-			<p><%= link_to 'Edit', edit_artist_path(@artist) %> </p>
+	<div>
+		<br/>
+		<br/>
 
-			<% end %>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<%= @artist.bio %>
+		 </div> 
+		</div>
+
+		 
+		<div class="row">
+		<br/>
+			<ul class="artistsm">
+		      <li><%= link_to (image_tag 'twitter42.png',size: "25x25"), @artist.twitter, :target => "_blank" %></li>
+		      <li><%= link_to (image_tag 'facebook55.png',size: "25x25"), @artist.facebook, :target => "_blank" %></li>
+		      <li><%= link_to (image_tag 'soundcloud6.png',size: "25x25"), @artist.soundcloud, :target => "_blank" %></li>
+	    	</ul>
+	    </div>
 	</div>
 </div>
 
+<div id="player1">
+	
+</div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<%= val = @artist.soundcloud.html_safe %>
+<%= value = "http://soundcloud.com/sokmusic" %>
+<script type="text/JavaScript">
+  SC.oEmbed(value, {color: "ff0066"},  document.getElementById("player1"));
+</script>
 
+	
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>

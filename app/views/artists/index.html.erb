@@ -2,10 +2,11 @@
 <div class="container">
     <p id="notice"><%= notice %></p>
 
-    <h1 class="center">A R T I S T S</h1>
+    <h3 class="center">A R T I S T S</h3>
+    <hr/>
     <% if user_signed_in? %>
       <a class="btn btn-lg" <%= link_to 'Add Artist', new_artist_path %> </a>
-     
+
     <% end %>
     <div class="row">
 
@@ -13,7 +14,9 @@
       <div class="col-md-4">
         <%= link_to image_tag(artist.image.url), artist, :class => "blur" %>
         <!-- <%= link_to image_tag(artist.image.url(:medium)), artist, :class => "blur" %> -->
-        <p class="lead center"><%= artist.name %>
+        <p class="lead center">
+
+        <%= artist.name %>
         
         <% if user_signed_in? %>
                | <%= link_to 'Edit', edit_artist_path(artist) %>

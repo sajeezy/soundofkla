@@ -1,0 +1,9 @@
+<%= javascript_include_tag '//connect.soundcloud.com/sdk.js' %>
+<%= javascript_include_tag 'application' %>
+
+
+<div id="player"></div>
+
+<script type="text/JavaScript">
+  SC.oEmbed("http://soundcloud.com/sokmusic", {color: "ff0066"},  document.getElementById("player"));
+</script>

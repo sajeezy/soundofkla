@@ -1,6 +1,5 @@
 
-<%= javascript_include_tag '//connect.soundcloud.com/sdk.js' %>
-<%= javascript_include_tag 'application' %>
+
 
 <div class="container">
 	<!-- <p id="notice"><%= notice %></p> -->	
@@ -49,10 +48,9 @@
 	
 </div>
 
-<%= val = @artist.soundcloud.html_safe %>
-<%= value = "http://soundcloud.com/sokmusic" %>
+
 <script type="text/JavaScript">
-  SC.oEmbed(value, {color: "ff0066"},  document.getElementById("player1"));
+  SC.oEmbed('<%= @artist.soundcloud %>', {color: "ff0066"},  document.getElementById("player1"));
 </script>
 
 	

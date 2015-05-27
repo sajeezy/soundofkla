@@ -1,0 +1,55 @@
+<div class="container">
+	<!-- <p id="notice"><%= notice %></p> -->
+
+	<%= link_to '< Back', releases_path %>	
+		<% if user_signed_in? %>
+			| <%= link_to 'Edit', edit_release_path(@release) %> 
+			<% end %>
+
+<div class="row container center">
+	 <br/>
+	 
+	 <h3> <%= @release.name %></h3>
+
+	 <div class="row">
+	 <br/>
+	 <br/>
+		<!-- <div class="col-md-6 col-md-offset-3">
+				<hr/>
+		</div> -->
+	
+		<div class="col-md-10">
+			<div class="col-md-6 pull-left col-sm-3">
+				<!-- <%= image_tag @release.image.url%> -->
+				<div id="player">
+	
+				</div>
+			</div>
+
+			<div class="col-md-6 ">
+					<p><%= @release.details %></p>
+			  	
+			  	<div class="">	
+			  		<br/>
+			  		<p class="lead">CREDITS </p>
+			  		<%= @release.credits %>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<script type="text/JavaScript">
+  SC.oEmbed('<%= @release.link %>', {color: "ff0066"},  document.getElementById("player"));
+</script>

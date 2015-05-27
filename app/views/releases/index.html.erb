@@ -1,0 +1,44 @@
+
+<div class="container">
+    <p id="notice"><%= notice %></p>
+
+    <h3 class="center">R E L E A S E S</h3>
+      <hr/>
+
+    <% if user_signed_in? %>
+    <a class="btn btn-lg" <%= link_to 'Add Release', new_release_path %> </a>
+  <% end %>
+
+ <div class="row">
+      <% @releases.each do |release| %>
+      <div class="col-md-4">
+      
+        <%= link_to image_tag(release.image.url), release, :class => "blur" %>
+            <p class="lead center capitalize">
+        
+          <%= release.name %>
+
+           <% if user_signed_in? %>
+              | <%= link_to 'Edit', edit_release_path(release) %>
+              | <%= link_to 'Delete', release, method: :delete, data: { confirm: 'Are you sure?' } %>
+          <% end %>
+        </p>
+
+        </div>
+      <% end %>
+    </div>
+
+  <br>
+
+</div>
+  
+</div>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+

@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
   
+  resources :releases
   resources :artists
+  resources :artist
   devise_for :users
   root 'pages#home'
   get "about" => "pages#about"
   get "releases" => "pages#releases"
   get "events" => "pages#events"
-  get "artists" => "pages#artists"
+  # get "artists" => "pages#artists"
   get "events" => "pages#events"
   get "blog" => "pages#blog"
   get "contact" => "pages#contact"

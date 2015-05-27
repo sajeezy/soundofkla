@@ -14,12 +14,12 @@
 
   <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
     <ul class="nav navbar-nav">
-      <li><%= link_to "About", about_path %></li> 
-      <li><%= link_to "Artists", artists_path %></li>
-      <li><%= link_to "Releases", releases_path %></li>
-      <li><%= link_to "Events", events_path %></li>
-      <li><%= link_to "Media",  blog_path %></li> 
-      <li><%= link_to "Contact", contact_path %></li>
+      <li><%= link_to "ABOUT", about_path %></li> 
+      <li><%= link_to "ARTISTS", artists_path %></li>
+      <li><%= link_to "RELEASES", releases_path %></li>
+      <!-- <li><%= link_to "Events", events_path %></li> -->
+      <li><%= link_to "+ MEDIA",  blog_path %></li> 
+      <li><%= link_to "CONTACT", contact_path %></li>
       
       <% if user_signed_in? %>
        <li><%= link_to "Account Settings", edit_user_registration_path %></li>

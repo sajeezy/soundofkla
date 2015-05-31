@@ -1,0 +1,38 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+ <% if user_signed_in? %>
+    <a class="btn btn-lg" <%= link_to 'Add Post', new_post_path %> </a>
+  <% end %>
+
+<% @posts.each do |post| %>
+<div class="col-md-offset-2">
+   <h1 class="center"> <%= link_to post.title, post %> </h1> 
+
+   <div class="center">
+     <%= link_to (image_tag post.image.url, size: "630x357"), post%>
+
+   </div>
+
+   <div class="center"><%= post.created_at %> </div>
+
+    <div class="col-md-offset-2">
+       <p><%= truncate post.body, length: 200 %>  <%= link_to 'Read more', post %></p>
+
+         <% if user_signed_in? %>
+         <div>
+          <%= link_to 'Edit', edit_post_path(post) %> |
+          <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+       <% end %>
+    </div>
+       <hr/>
+ 
+  </div>
+    <% end %>
+ 
+<br>
+
+
+
+</div>

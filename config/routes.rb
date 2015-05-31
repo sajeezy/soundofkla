@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   resources :posts
+  resources :posts
   resources :releases
   resources :artists
   resources :artist
@@ -11,8 +12,9 @@ Rails.application.routes.draw do
   get "events" => "pages#events"
   # get "artists" => "pages#artists"
   get "events" => "pages#events"
-  get "blog" => "pages#blog"
+  get "media" => "pages#blog"
   get "contact" => "pages#contact"
+  get "posts" => "posts#index"
 
 devise_scope :user do
   get "/sokadmin" => "devise/sessions#new"

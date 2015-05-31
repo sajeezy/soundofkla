@@ -1,0 +1,28 @@
+<div class="container">
+	<p id="notice"><%= notice %></p>
+
+<%= link_to '< Back', posts_path %>	
+		<% if user_signed_in? %>
+			| <%= link_to 'Edit', edit_post_path(@post) %> 
+			<% end %>
+
+	<h3 class="center"> <%= @post.title %> </h3>
+
+	<div class="center"><%= image_tag @post.image.url, :class =>'showpostimg' %></div>
+	<br/>
+	<p><%= @post.body %></p>
+
+	<p>
+	  <%= @post.created_at %> <br/>
+	  written by: <strong><%= @post.author %></strong> for Soundofkla
+	</p>
+
+
+</div>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

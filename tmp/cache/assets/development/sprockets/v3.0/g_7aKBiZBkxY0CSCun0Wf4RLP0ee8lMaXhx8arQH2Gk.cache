@@ -1,0 +1,12 @@
+I"Ø(function() {
+  $(function() {
+    return $('#releases').imagesLoaded(function() {
+      return $('#releases').masonry({
+        itemSelector: '.box',
+        isFitWidth: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

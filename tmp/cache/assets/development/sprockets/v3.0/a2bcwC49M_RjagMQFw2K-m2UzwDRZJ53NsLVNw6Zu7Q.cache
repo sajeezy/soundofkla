@@ -1,0 +1,13 @@
+I"ñ(function() {
+  $(function() {
+    return $('#releases').imagesLoaded(function() {
+      return $('#releases').masonry({
+        columnWidth: 20,
+        itemSelector: '.box',
+        isFitWidth: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

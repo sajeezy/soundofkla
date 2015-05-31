@@ -37,7 +37,7 @@ gem 'aws-sdk', '< 2.0'
 
 gem 'soundcloud'
 
-gem 'oembed'
+gem 'masonry-rails'
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'

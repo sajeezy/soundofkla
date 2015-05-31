@@ -1,5 +1,5 @@
 
-<div class="container">
+
     <p id="notice"><%= notice %></p>
 
     <h3 class="center">R E L E A S E S</h3>
@@ -9,36 +9,41 @@
     <a class="btn btn-lg" <%= link_to 'Add Release', new_release_path %> </a>
   <% end %>
 
- <div class="row">
+
+ <div id="releases" class="transitions-enabled">
+
       <% @releases.each do |release| %>
-      <div class="col-md-4">
+
+    <div class="box panel panel-default">
+   
       
-        <%= link_to image_tag(release.image.url), release, :class => "blur" %>
-            <p class="lead center capitalize">
-        
-          <%= release.name %>
+        <%= link_to image_tag(release.image.url(:medium)), release %>
 
-           <% if user_signed_in? %>
-              | <%= link_to 'Edit', edit_release_path(release) %>
-              | <%= link_to 'Delete', release, method: :delete, data: { confirm: 'Are you sure?' } %>
-          <% end %>
-        </p>
+           <div class="panel-body">
 
-        </div>
-      <% end %>
+              <p class="lead center">
+              
+                <%= release.name %>
+
+                 <% if user_signed_in? %>
+                    | <%= link_to 'Edit', edit_release_path(release) %>
+                    | <%= link_to 'Delete', release, method: :delete, data: { confirm: 'Are you sure?' } %>
+                <% end %>
+              </p>
+
+              <!-- <p><%= release.details %></p> -->
+
+          </div>
+
     </div>
 
-  <br>
+      <% end %>
 
-</div>
-  
-</div>
-
+  </div>
 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-
 

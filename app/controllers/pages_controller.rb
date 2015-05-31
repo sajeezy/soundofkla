@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  require 'soundcloud'
+  # require 'soundcloud'
 
   def home
   end

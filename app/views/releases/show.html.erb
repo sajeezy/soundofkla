@@ -24,6 +24,13 @@
 				<div id="player">
 	
 				</div>
+              <div class="center">
+              <p> Share with
+          		 <%= link_to (image_tag 'logotype30.png',size: "30x30"),"http://www.facebook.com/sharer.php?u=URL"+ @release.name + " from Soundofkla now on http://soundofkla.herokuapp.com"+ request.fullpath, :target => :blank %>
+          		 <%= link_to (image_tag 'socialnetwork64.png',size: "30x30"),"http://twitter.com/home?status=Check out "+ @release.name + " from @soundofkla now on http://soundofkla.com"+ request.fullpath, :target => :blank %>
+          		  <%= link_to (image_tag 'tumblr2.png',size: "30x30"),"https://tumblr.com/share"+ @release.name + " from @soundofkla now on http://soundofkla.com"+ request.fullpath, :target => :blank %>
+				</p></div>
+          
 			</div>
 
 			<div class="col-md-6 ">
@@ -34,6 +41,7 @@
 			  		<p class="lead">CREDITS </p>
 			  		<%= @release.credits %>
 				</div>
+
 			</div>
 		</div>
 	</div>
@@ -49,7 +57,10 @@
 <br/>
 <br/>
 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-556af2db222ada62" async="async"></script>
 
+   
 <script type="text/JavaScript">
   SC.oEmbed('<%= @release.link %>', {color: "ff0066"},  document.getElementById("player"));
 </script>

@@ -1,4 +1,4 @@
-
+<div class="container">
     <p id="notice"><%= notice %></p>
 
     <h3 class="center">R E L E A S E S</h3>
@@ -22,7 +22,7 @@
 
               <p class="lead center">
               
-                <%= release.name %>
+                <%= release.name %> by <%= release.artist_name %>
 
                  <% if user_signed_in? %>
                     | <%= link_to 'Edit', edit_release_path(release) %>
@@ -39,7 +39,7 @@
       <% end %>
 
   </div>
-
+</div>
 <br/>
 <br/>
 <br/>

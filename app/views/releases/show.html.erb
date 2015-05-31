@@ -10,6 +10,7 @@
 	 <br/>
 	 
 	 <h3> <%= @release.name %></h3>
+	
 
 	 <div class="row">
 	 <br/>
@@ -17,7 +18,6 @@
 		<!-- <div class="col-md-6 col-md-offset-3">
 				<hr/>
 		</div> -->
-	
 		<div class="col-md-10">
 			<div class="col-md-6 pull-left col-sm-3">
 				<!-- <%= image_tag @release.image.url%> -->
@@ -25,7 +25,8 @@
 	
 				</div>
               <div class="center">
-              <p> Share with
+              <p> by <%= @release.artist_name %></p>
+              <p>Share with
           		 <%= link_to (image_tag 'logotype30.png',size: "30x30"),"http://www.facebook.com/sharer.php?u=URL"+ @release.name + " from Soundofkla now on http://soundofkla.herokuapp.com"+ request.fullpath, :target => :blank %>
           		 <%= link_to (image_tag 'socialnetwork64.png',size: "30x30"),"http://twitter.com/home?status=Check out "+ @release.name + " from @soundofkla now on http://soundofkla.com"+ request.fullpath, :target => :blank %>
           		  <%= link_to (image_tag 'tumblr2.png',size: "30x30"),"https://tumblr.com/share"+ @release.name + " from @soundofkla now on http://soundofkla.com"+ request.fullpath, :target => :blank %>

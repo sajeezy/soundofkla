@@ -15,10 +15,14 @@ class ReleasesController < ApplicationController
   # GET /releases/new
   def new
     @release = Release.new
+
+    @artists = Artist.all
   end
 
   # GET /releases/1/edit
   def edit
+    @release = Release.find(params[:id])
+    @artists = Artist.all
   end
 
   # POST /releases
@@ -69,6 +73,6 @@ class ReleasesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def release_params
-      params.require(:release).permit(:name, :details, :link, :credits, :image)
+      params.require(:release).permit(:name, :details, :link, :credits, :image, :artist_name)
     end
 end

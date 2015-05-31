@@ -11,7 +11,7 @@ class Artist < ActiveRecord::Base
   validates :facebook, presence: true
   validates :soundcloud, presence: true
 
-
+  has_many :releases
 end
 
 

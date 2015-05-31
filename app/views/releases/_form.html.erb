@@ -16,6 +16,11 @@
     <%= f.label :image %>
     <%= f.file_field :image, class: "form-control" %>
   </div>
+  
+  <div class="form-group">
+    <%= f.label :artist_id %><br>
+    <%= collection_select(:release, :artist_name, @artists, :name, :name, {:prompt =>false}) %>
+  </div>
 
   <div class="form-group">
     <%= f.label :name %><br>

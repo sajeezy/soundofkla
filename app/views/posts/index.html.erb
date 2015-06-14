@@ -1,4 +1,16 @@
 <div class="container">
+
+ <ul class="nav navbar-nav center">
+      <li><%= link_to "+ VIDEOS", media_path %></li>
+      <li><%= link_to "+ PODCASTS",  media_path %> </li> 
+      <li><%= link_to "+ VISUALS", media_path %></li>
+      <li><%= link_to "+ POSTS",  posts_path %></li>     
+    </ul>
+
+
+</div>
+
+<div class="container">
 <p id="notice"><%= notice %></p>
 
  <% if user_signed_in? %>

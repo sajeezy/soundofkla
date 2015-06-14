@@ -19,6 +19,6 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def blog
+  def media
   end
 end

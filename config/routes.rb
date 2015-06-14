@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "events" => "pages#events"
   # get "artists" => "pages#artists"
   get "events" => "pages#events"
-  get "media" => "pages#blog"
+  get "media" => "pages#media"
   get "contact" => "pages#contact"
   get "posts" => "posts#index"
 

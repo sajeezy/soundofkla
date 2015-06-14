@@ -20,12 +20,13 @@
 		</div> -->
 		<div class="col-md-10">
 			<div class="col-md-6 pull-left col-sm-3">
-				<!-- <%= image_tag @release.image.url%> -->
+				 <!-- <%= image_tag @release.image.url%>  -->
 				<div id="player">
 	
 				</div>
               <div class="center">
-              <p> by <%= @release.artist_name %></p>
+               <p> by <%= @release.artist_name %></p>
+
               <p>Share with
           		 <%= link_to (image_tag 'logotype30.png',size: "30x30"),"http://www.facebook.com/sharer.php?u=URL"+ @release.name + " from Soundofkla now on http://soundofkla.herokuapp.com"+ request.fullpath, :target => :blank %>
           		 <%= link_to (image_tag 'socialnetwork64.png',size: "30x30"),"http://twitter.com/home?status=Check out "+ @release.name + " from @soundofkla now on http://soundofkla.com"+ request.fullpath, :target => :blank %>
